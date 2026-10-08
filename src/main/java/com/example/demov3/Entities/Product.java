@@ -15,16 +15,12 @@ public class Product {
 
     private Double price;
 
-    // Default Constructor
     public Product() {}
 
-    // Parametrized Constructor
     public Product(String name, Double price) {
         this.name = name;
         this.price = price;
     }
-
-    // Getters and Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
